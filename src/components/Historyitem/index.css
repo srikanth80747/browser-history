@@ -1,0 +1,83 @@
+.search-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 15px;
+}
+
+.timecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.timestamp {
+  color: #64748b;
+  font-weight: 700;
+}
+
+.domainurl {
+  color: #475569;
+}
+
+.domain-logo {
+  width: 25px;
+  margin-left: 60px;
+  margin-right: 10px;
+}
+
+.imgcard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titlecard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  margin: 10px;
+  font-weight: 500;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media (max-width: 576px) {
+  .timecard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .titlecard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .title {
+    margin: 0px;
+    font-weight: 500;
+  }
+
+  .imgcard {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .domain-logo {
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+}
